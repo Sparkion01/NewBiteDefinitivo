@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    color: #fc0345;
+}
+
+
+.imagem{
+    width: 22%;
+    position: absolute;
+    left: 8%;
+}
+
+.Episodios{
+    position: absolute;
+    bottom: -20%;
+    display: block;
+    left: 7%;
+    
+}
+
+.autor{
+    display: block;
+    position: absolute;
+    left: 35%;
+    color: #d7d9d4;
+    bottom: 55%;
+}
+
+.autor-nome{
+    display: block;
+    position: absolute;
+    left: 35%;
+    color: #d7d9d4;
+    bottom: 50%;
+}
+
+.studio{
+    display: block;
+    position: absolute;
+    right: 35%;
+    color: #d7d9d4;
+    bottom: 55%;
+}
+
+.studio-nome{
+    display: block;
+    position: absolute;
+    right: 37%;
+    color: #d7d9d4;
+    bottom: 50%;
+}
+
+.lançamento{
+    display: block;
+    position: absolute;
+    right: 18%;
+    color: #d7d9d4;
+    bottom: 55%;
+}
+
+.ano{
+    display: block;
+    position: absolute;
+    right: 19%;
+    color: #d7d9d4;
+    bottom: 50%;
+}
+
+.sinopse{
+    display: block;
+    position: absolute;
+    left: 35%;
+    color: #d7d9d4;
+    bottom: 42%;
+}
+
+.sinopse-conteudo{
+    
+    position: absolute;
+    left: 35%;
+    color: #d7d9d4;
+    bottom: 3%;
+    font-size: small;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Anime</title>
+    <link rel="stylesheet" href="cadastrarani.css">
+</head>
+<body>
+
+    <div class="box">
+        <form>
+           <fieldset>
+            <legend><b>Cadastro</b></legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="nome-do-anime" id="nome-do-anime" class="inputUser" required>
+                <label for="nome-do-anime" class="labelInput">Nome</label>
+            </div>
+            <br><br>
+
+            <div class="inputBox">
+                <input type="text" name="nome-do-autor" id="nome-do-autor" class="inputUser" required>
+                <label for="nome-do-anime" class="labelInput">Nick</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="email" name="nome-do-estudio" id="nome-do-estudio" class="inputUser" required>
+                <label for="nome-do-anime" class="labelInput">E-mail</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <label for="generoAnime">Selecione o seu Genero de Anime Favorito</label>
+                <select name="generoAnime" id="generoAnime" class="inputUser" size=" " required>
+                  
+                  <option >Ação</option>
+                  <option>Isekai</option>
+                  <option>Shounen</option>
+                  <option>Comédia</option>
+                  <option>Romance</option>
+                </select>
+              </div>
+              <br><br>
+            
+                <label for="DatadeLancamento"><b> Data de Nacimento</b></label>
+                <input type="date" name="DatadeLancamento" id="DatadeLancamento"  required>
+                
+            
+            <br><br>
+
+            <div class="inputBox">
+                <label for="numeroEpisodio"> <b>Anime favorito</b></label>
+                <input type="text" name="numeroEpisodio" id="numeroEpisodio" class="inputUser" required >
+                
+            </div>
+            
+            
+                
+            
+            <br><br>
+            <label for="DatadeTermino"> <b>Data de lançamento de anime favorito</b></label>
+            <input type="date" name="DatadeTermino" id="DatadeTermino"  >
+            <br><br>
+            <div class="inputBox">
+                <label for="sinopse"> <b>Faça uma pequena decrição sobre vc</b></label>
+                <textarea name="sinopse" id="sinopse"  rows="5" class="inputUser"></textarea>
+                
+            </div>
+            <br><br>
+            <input type="submit" name="submit" id="submit">
+
+            
+           </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
